@@ -76,5 +76,24 @@
     <h1>Interesting information about Tigers and Lions</h1>
 
     <img src="https://i.ibb.co/5gGFHjb9/tiger.jpg" alt="Tiger" />
+    <br />
+    <button onclick="tiger();">read more!</button>
+    <p id="tiger-info"></p>
+    <img src="https://i.ibb.co/WWJBdnq3/lion.jpg" alt="lion" />
+    <br />
+     <button onclick="lion();">read more!</button>
+    <p id="lion"></p>
+    <script>
+      function tiger() {
+        document.getElementById("tiger-info").innerHTML =
+        "The tiger (Panthera tigris) is the largest extant cat species and a member of the genus Panthera.";
+        document.getElementById("tiger-info").style.display = "block";
+      }
+      function lion() {
+        document.getElementById("lion-info").innerHTML =
+        "The lion (Panthera leo) is a species in the family Felidae and a member of the genus Panthera.";
+        document.getElementById("lion-info").style.display = "block";
+      }
+      </script>
   </body>
 </html>
